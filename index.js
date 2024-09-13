@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
   try {
     // Call OpenWeather API using axios
     const response = await axios.get(
-      "https://api.openweathermap.org/data/2.5/weather?lat=28.68&lon=77.22&appid=25dc2d547a950285787e98647f03d7d8&units=metric"
+      "https://api.openweathermap.org/data/2.5/weather?lat=28.68&lon=77.22&appid="
     );
     
     // Extract the required data from the response
